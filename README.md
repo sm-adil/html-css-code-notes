@@ -7,6 +7,7 @@ Here we have all the code notes we'll be using during camp
 - `!DOCTYPE html` Tells browser that the document beibg used is written in html5 syntax
 
 - `<html lang='en'>` Defines the begining and end of the html webpage. `lang` attribute defines the document language
+
     ```
     <html>
         ...
@@ -14,37 +15,44 @@ Here we have all the code notes we'll be using during camp
     ```
 
 - `<head>` Initial content to be executed when page is loaded. We defines loading of external resources (css, js, icon etc) and static markup.
+
     ```
     <head>
         ...
     </head>
     ```
     - `<meta>` Provides meta data of the webpage (description, character set etc)
+
         ```
         <meta name='description' content='Some description'/>
         ```
     - `<title>` Defines the title of the webpage
+
         ```
         <title>I am a title</title>
         ```
-    - `<link>` Used to import external resources (css, fonts) into page
+    - `<link>` Used to import external resources (css, fonts) into webpage
+
         ```
         <link rel='stylesheet' href='file.css'>
         ```
 
 - `<body>` Defines the document's body, contains all the content of page (text, images, links etc)
+
     ```
     <body>
         ...
     </body>
     ```
     - `<div>` Defines the part of the webpage, mostly used to break the html elements into parts
+
         ```
         <div>
             ...
         </div>
         ```
     - `<h1>, <h2>, <h3>, <h4>, <h5>, <h6>` Heading tags, each tag has different font-size & font-weight
+
         ```
         <h1>Heading h1</h1>
 
@@ -59,24 +67,29 @@ Here we have all the code notes we'll be using during camp
         <h6>Heading h6</h6>
         ```
     - `<p>` Defines the paragraph of text/numbers/characters
+
         ```
         <p>Paragraph</p>
         ```
     - `<a>` Anchor tag, used to add hyper links to webpage
+    
         ```
         <a href='https://new-link.com'>Link</a>
         ```
     - `<img>` Display images onto webpage
+
         ```
         <img src='file.jpg' alt='alternative name'>
         ```
     -  `<form>` Used in data interaction. Users can add or upload text/email/number/password/file
+
         ```
         <form>
             ...
         </form>
         ```
         - `<input>` Takes in text/files from the user & can be used to store these data elsewhere
+
             ```
             <input type='text' placeholder='Text placeholder' value='Some value' />
 
@@ -91,10 +104,12 @@ Here we have all the code notes we'll be using during camp
             <input type='file' />
             ```
     - `<button>` Provides a button in order to interact with webpage
+
         ```
         <button>I am a button</button>
         ```
     - `<script>` Will add JavaScript into the html webpage
+
         ```
         <script>
             ...
@@ -108,11 +123,14 @@ Here we have all the code notes we'll be using during camp
 ## CSS (Cascading Stylesherts)
 
 - Adding `css` to `html`
+
     - `Inline`: Within the html elements
+
         ```
         <h1 style='color: red'>
         ```
     - `Internal`: Using `<style>` tag
+
         ```
         <style>
             h1 {
@@ -121,29 +139,36 @@ Here we have all the code notes we'll be using during camp
         </style>
         ```
     - `External`: Use`<link>` tag to import css file into html
+
         ```
         <link rel='stylesheet' href='file.css'>
         ```
 
 - `Selectors`: These are the attributes which will be targeted to add styling properties
+
     - `class`
+
         ```
         .class-name {
             ...
         }
         ```
     - `id`
+
         ```
         #id-name {
             ...
         }
         ```
     - `element` (h1, img, body etc)
+
+        ```
         h1 {
             ...
         }
-
+        ```
 - `Colors`
+
     - `color`
         ```
         h1 {
@@ -151,6 +176,7 @@ Here we have all the code notes we'll be using during camp
         }
         ```
     - `background-color`
+
         ```
         div {
             backfround-color: yellow;
@@ -158,13 +184,16 @@ Here we have all the code notes we'll be using during camp
         ```
 
 - `Text`
+
     - `font-size`: Customize size of the fonts of the webpage
+
         ```
         h2 {
             font-size: 16px;
         }
         ```
     - `font-weight`: Customize weight of the fonts
+
         ```
         h2 {
             font-weight: 700;
@@ -172,13 +201,16 @@ Here we have all the code notes we'll be using during camp
         ```
 
 - `Box Model`: CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content
+
     - `content`: HTML markup (text, image, div's etc)
+
         ```
         <div>
             ...
         </div>
         ```
     - `padding`: Space around the content
+
         ```
         div {
             padding-top: 20px;
@@ -194,6 +226,7 @@ Here we have all the code notes we'll be using during camp
         }
         ```
     - `border`: Goes around the padding and content
+
         ```
         div {
             border-width: 2px;
@@ -208,6 +241,7 @@ Here we have all the code notes we'll be using during camp
         }
         ```
     - `margin`: Creates space around content, outside of any defined borders
+
         ```
         div {
             margin-top: 20px;
@@ -224,6 +258,7 @@ Here we have all the code notes we'll be using during camp
         ```
 
 - `box-shadow`: Adds one or more shadows to an element. Uses horizontal-offset, vertical-offset, bur-ratio, spread-radius & color
+
     ```
     div {
         box-shadow: 3px 3px 5px 6px #ccc;
@@ -231,6 +266,7 @@ Here we have all the code notes we'll be using during camp
     ```
 
 - `Pseudo class`: Additional classes which can be targeted with normal html attribures
+
     ```
     div:hover {
         background-color: pink;
@@ -241,6 +277,7 @@ Here we have all the code notes we'll be using during camp
     ```
 
 - `Media Queries`: Include a block of CSS properties only if a certain condition is true
+
     ```
     @media screen (max-width: 700px) {
         div {
@@ -256,6 +293,7 @@ Here we have all the code notes we'll be using during camp
     ```
 
 - `CSS Grid System`: Allows us to quickly create flexible, two dimensional layouts
+
     ```
     div {
         display: grid;
