@@ -1,12 +1,12 @@
 # rit-hassan-code-notes
 
-Here we have all the code notes we'll be using during camp
+Here we have all the code notes we"ll be using during camp
 
 ## HTML (Hypertext Markup Language)
 
 - `!DOCTYPE html` Tells browser that the document beibg used is written in html5 syntax
 
-- `<html lang='en'>` Defines the begining and end of the html webpage. `lang` attribute defines the document language
+- `<html lang="en">` Defines the begining and end of the html webpage. `lang` attribute defines the document language
 
     ```
     <html>
@@ -24,7 +24,7 @@ Here we have all the code notes we'll be using during camp
     - `<meta>` Provides meta data of the webpage (description, character set etc)
 
         ```
-        <meta name='description' content='Some description'/>
+        <meta name="description" content="Some description"/>
         ```
     - `<title>` Defines the title of the webpage
 
@@ -34,10 +34,10 @@ Here we have all the code notes we'll be using during camp
     - `<link>` Used to import external resources (css, fonts) into webpage
 
         ```
-        <link rel='stylesheet' href='file.css'>
+        <link rel="stylesheet" href="file.css">
         ```
 
-- `<body>` Defines the document's body, contains all the content of page (text, images, links etc)
+- `<body>` Defines the document"s body, contains all the content of page (text, images, links etc)
 
     ```
     <body>
@@ -74,12 +74,12 @@ Here we have all the code notes we'll be using during camp
     - `<a>` Anchor tag, used to add hyper links to webpage
     
         ```
-        <a href='https://new-link.com'>Link</a>
+        <a href="https://new-link.com">Link</a>
         ```
     - `<img>` Display images onto webpage
 
         ```
-        <img src='file.jpg' alt='alternative name'>
+        <img src="file.jpg" alt="alternative name">
         ```
     -  `<form>` Used in data interaction. Users can add or upload text/email/number/password/file
 
@@ -91,17 +91,17 @@ Here we have all the code notes we'll be using during camp
         - `<input>` Takes in text/files from the user & can be used to store these data elsewhere
 
             ```
-            <input type='text' placeholder='Text placeholder' value='Some value' />
+            <input type="text" placeholder="Text placeholder" value="Some value" />
 
-            <input type='email' placeholder='Email placeholder' value='Some value' />
+            <input type="email" placeholder="Email placeholder" value="Some value" />
 
-            <input type='password' placeholder='Password placeholder' />
+            <input type="password" placeholder="Password placeholder" />
 
-            <input type='checkbox' value='Checkbox value' />
+            <input type="checkbox" value="Checkbox value" />
 
-            <input type='radio' placeholder='Radio value' />
+            <input type="radio" placeholder="Radio value" />
 
-            <input type='file' />
+            <input type="file" />
             ```
     - `<button>` Provides a button in order to interact with webpage
 
@@ -117,7 +117,7 @@ Here we have all the code notes we'll be using during camp
 
         or
 
-        <script src='file.js'>
+        <script src="file.js">
         ```
 
 ## CSS (Cascading Stylesherts)
@@ -127,7 +127,7 @@ Here we have all the code notes we'll be using during camp
     - `Inline`: Within the html elements
 
         ```
-        <h1 style='color: red'>
+        <h1 style="color: red">
         ```
     - `Internal`: Using `<style>` tag
 
@@ -141,7 +141,7 @@ Here we have all the code notes we'll be using during camp
     - `External`: Use`<link>` tag to import css file into html
 
         ```
-        <link rel='stylesheet' href='file.css'>
+        <link rel="stylesheet" href="file.css">
         ```
 
 - `Selectors`: These are the attributes which will be targeted to add styling properties
