@@ -76,6 +76,36 @@ Here we have all the code notes we"ll be using during camp
         ```
         <a href="https://new-link.com">Link</a>
         ```
+    - `<ul> & <ol>` Defines un-ordered & ordered list container
+
+        ```
+        <ul>
+            ...
+        </ul>
+
+        and
+
+        <ol>
+            ...
+        </ol>
+        ```
+        - `<li>` List attributes
+
+            ```
+            <ul>
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>List 3</li>
+            </ul>
+
+            or
+
+            <ol>
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>List 3</li>
+            </ol>
+            ```
     - `<img>` Display images onto webpage
 
         ```
